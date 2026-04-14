@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Pakkemedlemmer</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Sideordnede pakkemedlemmer</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Fremhevet vindu for pakker</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kapasitetstjenestekolonner</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Felt for komplekse arbeidsoppslag</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Mannskapsbehandling</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Verktøytips for mannskapsbehandling</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Felt for utpekt arbeid</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Foreldet</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-filter</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Optimaliseringskriterier for tjenesteavtale</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Tjenesteavtale utvidet</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kolonner for tjenesteavtaleliste</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Forhåndsvisning av for tjenesteavtaleliste</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Visning av ressurskalender for tjenesteavtale</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Verktøytips for ressurskalender for tjenesteavtale</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kart over tjenesteavtalevindu</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Fremhevet vindu for tjenester</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Fremhevet vindu for tjenester - adresse</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Fremhevet vindu for tjenester - tid</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt for tjenesteverktøytips</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <layouts>
+        <layout>FSL Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Dispatcher Console --></label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SDO - Customer Community Service Appointment</layout>
+        <sections>
+            <label><!-- Arrival Window --></label>
+            <section>Arrival Window</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SDO - SFS Service Appointment Feed Based</layout>
+        <sections>
+            <label><!-- Advanced Scheduling --></label>
+            <section>Advanced Scheduling</section>
+        </sections>
+        <sections>
+            <label><!-- Complex Work --></label>
+            <section>Complex Work</section>
+        </sections>
+        <sections>
+            <label><!-- Dispatcher Console --></label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SDO - Scheduler Service Appointment</layout>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Leads --></label>
+        <name>Create_Leads</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Endre status</label>
+        <name>FSL__Change_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Accept/Reject Work --></label>
+        <name>SDO_SFS_Accept_Reject_Work</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Resource --></label>
+        <name>SDO_SFS_Add_Resource</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cancel --></label>
+        <name>SDO_SFS_Cancel</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Appointment Status --></label>
+        <name>SDO_SFS_Change_Appointment_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reschedule --></label>
+        <name>SDO_SFS_Reschedule</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Running Late --></label>
+        <name>SDO_SFS_Running_Late</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SDO_SFS_SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t Edit FSLDemoTools Master Data --></errorMessage>
+        <name>FSLDemoTools_Master_Data</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ny tjenesteavtale kan ikke opprettes med planlagt eller utsendt status.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Velg en gyldig avhengighetstype. Hvis avtalene må tildeles til samme ressurs, kan ikke avhengighetstypen være Samme start.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ressursavhengighet er ugyldig. Tidsavhengighet kan ikke være Samme start når samme ressurs kreves.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Både planlagt start og slutt kreves</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Både planlagt start og slutt kreves</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Gantt-farger må være i heksadesimalt format: (for eksempel: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Velg Relatert tjeneste.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>DueDate-felt er nødvendig</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Varighet-felt er nødvendig</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>EarliestStartTime-felt er nødvendig</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Planlagt start må være tidligere enn planlagt slutt.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+</CustomObjectTranslation>

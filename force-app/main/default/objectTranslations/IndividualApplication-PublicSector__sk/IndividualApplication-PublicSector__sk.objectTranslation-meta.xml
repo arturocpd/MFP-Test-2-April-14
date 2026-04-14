@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Emergency Request</layout>
+        <sections>
+            <label><!-- Emergency Request --></label>
+            <section>Emergency Request</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Grantmaking Experience Cloud Layout</layout>
+        <sections>
+            <label><!-- Application Description --></label>
+            <section>Application Description</section>
+        </sections>
+        <sections>
+            <label><!-- Application Financials --></label>
+            <section>Application Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Grantmaking Layout</layout>
+        <sections>
+            <label><!-- Application Description --></label>
+            <section>Application Description</section>
+        </sections>
+        <sections>
+            <label><!-- Application Financials --></label>
+            <section>Application Financials</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Individual Application Layout</layout>
+        <sections>
+            <label><!-- Foster Care Information --></label>
+            <section>Foster Care Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create New Visit --></label>
+        <name>CreateNewVisit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Award --></label>
+        <name>Create_Award</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Individual Application --></label>
+        <name>Individual_Application</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Assign Review --></label>
+        <name>gps_Assign_Review</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- For Benefits Assignments ex (Heating Assistance) --></description>
+        <label><!-- Benefits --></label>
+        <name>Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Grantmaking --></label>
+        <name>Grantmaking</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For LPI related IAs --></description>
+        <label><!-- Individual Application --></label>
+        <name>Individual_Application</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Núdzová požiadavka</label>
+        <name>PublicSector__Emergency_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Požiadavka o povolenie prístupu do umiestnenia</label>
+        <name>PublicSector__Location_Access_Permit_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Certifikát tréningu</label>
+        <name>PublicSector__Training_Certificate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Social Insurance --></label>
+        <name>Social_Insurance</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- gps_Assign_Reviews --></label>
+        <name>gps_Assign_Reviews</name>
+    </webLinks>
+</CustomObjectTranslation>

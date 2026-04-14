@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Universal 360</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Universal 360s</value>
+    </caseValues>
+    <quickActions>
+        <label><!-- Link Universal Record --></label>
+        <name>xdo_dc_Link_Universal_Record</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

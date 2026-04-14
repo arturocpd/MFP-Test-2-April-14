@@ -1,0 +1,104 @@
+{
+  "appPageId" : "38bcf566-44b0-467f-b5f7-ef790aada3e9",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "label" : "Terms And Conditions",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "componentSpacerSize" : "",
+        "layoutDirectionDesktop" : "row",
+        "layoutDirectionMobile" : "column",
+        "layoutDirectionTablet" : "column",
+        "maxContentWidth" : "",
+        "sectionColumnGutterWidth" : "",
+        "sectionConfig" : "{\"UUID\":\"c2b7e56c-4f66-48aa-8cc8-e83909287cba\",\"columns\":[{\"UUID\":\"e07a1af1-e0c2-4147-b984-0cbcebf6140d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+        "sectionMinHeight" : "",
+        "sectionVerticalAlign" : "flex-start"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "c2b7e56c-4f66-48aa-8cc8-e83909287cba",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "isLinkable" : false,
+            "linkAssistiveText" : "",
+            "paddingHorizontal" : "none",
+            "paddingVertical" : "large",
+            "text" : "Terms and Conditions",
+            "textAlign" : "left",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\",\"enableOverride\":false}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "3a4c450c-8815-4602-ad25-8b71818a71d8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "2rem",
+                "left" : "0rem",
+                "right" : "0rem",
+                "top" : "1rem"
+              }
+            },
+            "imageInfos" : "",
+            "richTextValue" : "<p>Effective Date: [Policy Effective Date]</p>"
+          },
+          "componentName" : "community_builder:richTextEditor",
+          "id" : "456dcf71-896b-4c47-92f3-5c79bfacb720",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "imageInfos" : "",
+            "richTextValue" : "<p>Disclaimer: This is an automatically generated space intended as a starting point to help you add terms and conditions for the use of your site and services. You are responsible for the accuracy and compliance of any such terms with all applicable laws and regulations.</p>"
+          },
+          "componentName" : "community_builder:richTextEditor",
+          "id" : "f4cd5ddc-c922-432b-a1e9-e6c0cbcab662",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e07a1af1-e0c2-4147-b984-0cbcebf6140d",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "0ab1b84b-d7df-418c-bd71-ffa66bdee693",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Terms And Conditions",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "f7ec0f71-e413-4b8c-8500-0a3158c1147b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4bfc9728-22dc-474f-a27d-b7303a2a8b0f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "viewType" : "terms-and-conditions"
+}

@@ -1,0 +1,348 @@
+{
+  "appPageId" : "5a89a6eb-5e46-449a-bfec-8658faff2c53",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ {
+    "componentName" : "commerce_data_provider:quoteDetailDataProvider",
+    "componentAttributes" : {
+      "recordId" : "{!Route.recordId}",
+      "sfdcExpressionKey" : "QuoteDetail"
+    }
+  } ],
+  "label" : "Quote Summary Details",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "clientState" : "{!QuoteDetail.ClientState}",
+        "errorComponentButtonText" : "Continue Shopping",
+        "errorComponentHeadingText" : "We couldn’t retrieve the quote details",
+        "errorComponentSubHeadingText" : "Refresh the page. If the issue persists, contact support.",
+        "quoteSummaryDetails" : "{!QuoteDetail}"
+      },
+      "componentName" : "commerce_builder:quoteSummaryContentLayout",
+      "id" : "3da52ac7-f953-44c6-8593-eecb2df15b24",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "0.5rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "0.5rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4719c599-e460-467d-a9d2-f59a90c663cc\",\"columns\":[{\"UUID\":\"ed8a901b-c265-4f5e-ac0b-7a2bc036671d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "componentName" : "community_layout:section",
+          "id" : "4719c599-e460-467d-a9d2-f59a90c663cc",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "divider" : "slash",
+                "hideOnMobile" : true,
+                "maxDepthOnMobile" : "3",
+                "showHomeLink" : false,
+                "showLastItemAsLink" : false,
+                "textSize" : "small"
+              },
+              "componentName" : "commerce_builder:breadcrumbs",
+              "id" : "37c1ac8e-b9b1-4f92-a52f-97ba46d27f1f",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "ed8a901b-c265-4f5e-ac0b-7a2bc036671d",
+            "regionLabel" : "Column 1",
+            "regionName" : "col1",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "scopedBrandingSetId" : null,
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"22b86f58-9315-483f-8494-c94e9126d6a9\",\"columns\":[{\"UUID\":\"95c728fb-b723-4a73-9d93-82109e73bad2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":null},{\"UUID\":\"ad523764-e5dc-46af-bd15-6183ce771c3d\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "componentName" : "community_layout:section",
+          "id" : "22b86f58-9315-483f-8494-c94e9126d6a9",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Quote Request Number: {!QuoteDetail.quoteNumber}",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\": true}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-large\", \"headingTag\": \"h1\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "cdfc53fd-6edb-406a-af17-9cdf82277ed3",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "95c728fb-b723-4a73-9d93-82109e73bad2",
+            "regionLabel" : "Column 1",
+            "regionName" : "col1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "id" : "ad523764-e5dc-46af-bd15-6183ce771c3d",
+            "regionLabel" : "Column 2",
+            "regionName" : "col2",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "scopedBrandingSetId" : null,
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"59093942-e203-4307-822d-04949992ff2c\",\"columns\":[{\"UUID\":\"a5ab3f02-6b42-4063-916e-377617168a94\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "componentName" : "community_layout:section",
+          "id" : "59093942-e203-4307-822d-04949992ff2c",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "lineStyle" : "solid",
+                "size" : 1,
+                "width" : 100
+              },
+              "componentName" : "dxp_base:horizontalLine",
+              "id" : "630a0191-a567-4310-9144-486268e6d0b1",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "a5ab3f02-6b42-4063-916e-377617168a94",
+            "regionLabel" : "Column 1",
+            "regionName" : "col1",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "scopedBrandingSetId" : null,
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "3rem",
+            "sectionConfig" : "{\"UUID\":\"deee26f0-7475-4b97-8f17-ed3793601f74\",\"columns\":[{\"UUID\":\"de97e5b9-616e-41e0-8fa9-0f85051e8a0a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"8\",\"seedComponents\":null},{\"UUID\":\"ea40b016-8c6c-4fba-ac35-e3890b7a4948\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "componentName" : "community_layout:section",
+          "id" : "deee26f0-7475-4b97-8f17-ed3793601f74",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "customStatuses" : "[]",
+                "includeAcceptedStatus" : true,
+                "includeApprovedStatus" : true,
+                "includeDeniedStatus" : true,
+                "includeDraftStatus" : true,
+                "includeInReviewStatus" : true,
+                "includeNeedsReviewStatus" : false,
+                "includePresentedStatus" : false,
+                "includeRejectedStatus" : true,
+                "quoteStatus" : "{!QuoteDetail.status}",
+                "trackerCardBorderColor" : "#D9DFE7",
+                "trackerCardBorderRadius" : 5
+              },
+              "componentName" : "commerce_builder:quoteStatusTracker",
+              "id" : "fd814693-a0de-491d-befc-21fc6f825ed9",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "currencyIsoCode" : "{!QuoteDetail.fields.CurrencyIsoCode.text}",
+                "imageAspectRatio" : "1",
+                "imageSize" : "contain",
+                "items" : "{!QuoteDetail.LineItems}",
+                "pageSize" : 100,
+                "productDetailsPillBackgroundColor" : "rgb(217, 223, 231)",
+                "productDetailsPillBorderColor" : "rgb(217, 223, 231)",
+                "productDetailsPillBorderRadius" : 8,
+                "productDetailsPillFontSize" : "small",
+                "removeProductLinks" : false,
+                "showProductImage" : true,
+                "totalPrice" : "{!QuoteDetail.fields.TotalPrice.text}"
+              },
+              "componentName" : "commerce_builder:quoteConfirmationItems",
+              "id" : "f19ed2aa-03f6-4308-9fbb-9bde8634813c",
+              "regions" : [ {
+                "components" : [ {
+                  "componentAttributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Items in Your Quote ({!QuoteDetail.fields.LineItemCount.text})",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"textStyle\": \"heading-small\", \"headingTag\": \"h4\"}"
+                  },
+                  "componentName" : "dxp_base:textBlock",
+                  "id" : "279d4903-9e27-4a96-9eb5-e6db18f7613f",
+                  "renderPriority" : "NEUTRAL",
+                  "renditionMap" : { },
+                  "type" : "component"
+                } ],
+                "id" : "f49c226f-9723-40d4-b52e-560d9ffccd3e",
+                "regionName" : "header",
+                "type" : "region"
+              }, {
+                "components" : [ {
+                  "componentAttributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Show more",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\": \"body-regular\", \"headingTag\": \"p\"}"
+                  },
+                  "componentName" : "dxp_base:textBlock",
+                  "id" : "7053b2b1-5c55-4136-a533-2995a6fec12a",
+                  "renderPriority" : "NEUTRAL",
+                  "renditionMap" : { },
+                  "type" : "component"
+                } ],
+                "id" : "d938078e-562f-481a-bd1b-0b0b647889bf",
+                "regionName" : "showMore",
+                "type" : "region"
+              } ],
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "de97e5b9-616e-41e0-8fa9-0f85051e8a0a",
+            "regionLabel" : "Column 1",
+            "regionName" : "col1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "notesData" : "{!QuoteDetail.Notes}",
+                "notesTitle" : "Notes Exchange"
+              },
+              "componentName" : "commerce_builder:notesThread",
+              "id" : "79b961e3-fdb9-4cab-9862-2c64d8946496",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "ea40b016-8c6c-4fba-ac35-e3890b7a4948",
+            "regionLabel" : "Column 2",
+            "regionName" : "col2",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "scopedBrandingSetId" : null,
+          "type" : "component"
+        } ],
+        "id" : "8ce49389-cc2b-4865-afc5-f7bef79f591c",
+        "regionName" : "content",
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4a319f77-42b9-4aca-923d-e9c32c7cc292",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "2c5064fe-d6d9-4752-bab9-62c02d9b5cea",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2c7f17e6-a290-4d7b-a8a7-c31b2b062588",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "MyAccount",
+  "viewType" : "quote-summary"
+}

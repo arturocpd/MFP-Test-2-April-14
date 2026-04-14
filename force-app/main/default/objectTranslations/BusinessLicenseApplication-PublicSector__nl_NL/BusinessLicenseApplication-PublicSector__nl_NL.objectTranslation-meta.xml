@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <quickActions>
+        <label><!-- 📝 Create New Inspection --></label>
+        <name>Create_Visit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Business License --></label>
+        <name>Update_Business_License</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 📜 Issue License --></label>
+        <name>gps_Issue_License</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Used for all BLAs --></description>
+        <label><!-- License or Permit --></label>
+        <name>License_or_Permit</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Vergunningsverzoek voor heropening</label>
+        <name>PublicSector__Reopening_Permit_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aprovação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aprovações</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- RequestFields --></label>
+        <name>sbaa__RequestFields</name>
+    </fieldSets>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da aprovação</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Aprovar</label>
+        <name>sbaa__ApproveMobile</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Reatribuir</label>
+        <name>sbaa__ReassignMobile</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Rejeitar</label>
+        <name>sbaa__RejectMobile</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Reenviar solicitação</label>
+        <name>sbaa__ResendRequestMobile</name>
+    </quickActions>
+    <webLinks>
+        <label>Aprovar</label>
+        <name>sbaa__Approve</name>
+    </webLinks>
+    <webLinks>
+        <label>Reatribuir</label>
+        <name>sbaa__Reassign</name>
+    </webLinks>
+    <webLinks>
+        <label>Rejeitar</label>
+        <name>sbaa__Reject</name>
+    </webLinks>
+    <webLinks>
+        <label>Reenviar solicitação</label>
+        <name>sbaa__ResendRequestEmail</name>
+    </webLinks>
+</CustomObjectTranslation>

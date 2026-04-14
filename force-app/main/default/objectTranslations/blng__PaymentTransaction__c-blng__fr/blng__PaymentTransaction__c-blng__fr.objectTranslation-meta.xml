@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction de paiement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transactions de paiement</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Payment Transaction Layout</layout>
+        <sections>
+            <label><!-- ACH Details --></label>
+            <section>ACH Details</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Details --></label>
+            <section>Credit Card Details</section>
+        </sections>
+        <sections>
+            <label><!-- Gateway Response --></label>
+            <section>Gateway Response</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Request Information --></label>
+            <section>Payment Request Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom de la transaction de paiement</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Tenter un remboursement et déverrouiller la facture</label>
+        <name>blng__Refund</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label>Tenter un remboursement et déverrouiller la facture</label>
+        <name>blng__Refund</name>
+    </webLinks>
+</CustomObjectTranslation>

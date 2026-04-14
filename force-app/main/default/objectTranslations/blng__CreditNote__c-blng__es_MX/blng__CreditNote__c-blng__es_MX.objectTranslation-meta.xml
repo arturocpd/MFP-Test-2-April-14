@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Nota de crédito</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Notas de crédito</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Credit Note Layout</layout>
+        <sections>
+            <label><!-- Balance Details --></label>
+            <section>Balance Details</section>
+        </sections>
+        <sections>
+            <label><!-- Tax Address --></label>
+            <section>Tax Address</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Número de nota de crédito</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Aplicar impuestos</label>
+        <name>blng__ApplyTax</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Cancelar impuestos</label>
+        <name>blng__CancelTax</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Estimar impuestos</label>
+        <name>blng__EstimateTax</name>
+    </quickActions>
+    <webLinks>
+        <label>Asignar</label>
+        <name>blng__Allocations</name>
+    </webLinks>
+    <webLinks>
+        <label>Aplicar impuestos</label>
+        <name>blng__ApplyTax</name>
+    </webLinks>
+    <webLinks>
+        <label>Cancelar impuestos</label>
+        <name>blng__CancelTax</name>
+    </webLinks>
+    <webLinks>
+        <label>Estimar impuestos</label>
+        <name>blng__EstimateTax</name>
+    </webLinks>
+</CustomObjectTranslation>

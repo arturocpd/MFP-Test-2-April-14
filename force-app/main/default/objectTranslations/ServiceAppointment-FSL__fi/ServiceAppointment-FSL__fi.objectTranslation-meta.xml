@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Paketin jäsenet</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Paketin jäsenten sisarukset</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Paketoijan Lightbox</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kapasiteetin palvelusarakkeet</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Monimutkaisten töiden hakusuhdekentät</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Henkilöstön hallinta</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Henkilöstön hallinnan työkaluvihje</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kohdistetut työkentät</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Vanhentunut</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-suodatin</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen optimointikriteeri</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaaminen laajennettu</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen luettelon sarakkeet</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen luettelon esikatselu</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen resurssikalenterin näyttö</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen resurssikalenterin työkaluvihje</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutietoikkunan kartta</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelun Lightbox</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service Lightboxin osoite</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service Lightboxin aika</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelun työkaluvihjeen Gantt</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <layouts>
+        <layout>FSL Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Dispatcher Console --></label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SDO - Customer Community Service Appointment</layout>
+        <sections>
+            <label><!-- Arrival Window --></label>
+            <section>Arrival Window</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SDO - SFS Service Appointment Feed Based</layout>
+        <sections>
+            <label><!-- Advanced Scheduling --></label>
+            <section>Advanced Scheduling</section>
+        </sections>
+        <sections>
+            <label><!-- Complex Work --></label>
+            <section>Complex Work</section>
+        </sections>
+        <sections>
+            <label><!-- Dispatcher Console --></label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SDO - Scheduler Service Appointment</layout>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Leads --></label>
+        <name>Create_Leads</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Muuta tilaa</label>
+        <name>FSL__Change_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Accept/Reject Work --></label>
+        <name>SDO_SFS_Accept_Reject_Work</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Resource --></label>
+        <name>SDO_SFS_Add_Resource</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cancel --></label>
+        <name>SDO_SFS_Cancel</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Appointment Status --></label>
+        <name>SDO_SFS_Change_Appointment_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reschedule --></label>
+        <name>SDO_SFS_Reschedule</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Running Late --></label>
+        <name>SDO_SFS_Running_Late</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SDO_SFS_SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t Edit FSLDemoTools Master Data --></errorMessage>
+        <name>FSLDemoTools_Master_Data</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Uutta palvelutapaamista ei voida luoda Ajoitettu- tai Lähetetty-tilassa.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Valitse käypä sidonnaisuuden tyyppi. Jos tapaamiset täytyy kohdistaa samalle resurssille, sidonnaisuuden tyyppi ei voi olla Sama alkamisaika.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Resurssin riippuvuus on virheellinen. Ajasta riippuvuus ei voi olla Sama alkamisaika, kun sama resurssi on pakollinen.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ajoitettu alku ja loppu ovat molemmat pakollisia</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ajoitettu alku ja loppu ovat molemmat pakollisia</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Gantt-kaavion värin täytyy olla heksadesimaalimuodossa (esimerkiksi #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Valitse asiaan liittyvä palvelu.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>DueDate-kenttä on pakollinen</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Kesto-kenttä on pakollinen</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>EarliestStartTime-kenttä on pakollinen</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ajoitetun alkamisajan täytyy olla ennen ajoitettua päättymisaikaa.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+</CustomObjectTranslation>

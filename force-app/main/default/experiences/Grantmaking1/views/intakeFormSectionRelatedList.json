@@ -1,0 +1,39 @@
+{
+  "appPageId" : "7fe97e67-1ab0-4fe3-8497-ddfeb8bcee4b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e9523ad4-6f27-4615-8171-31cfb20957e0",
+  "label" : "Intake Form Section Related List",
+  "regions" : [ {
+    "id" : "c542f00e-b183-4465-abfe-7c044b242839",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "9850eacd-04b0-4998-b3ef-96ac25535cb9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f452101a-252d-4444-bbe9-cefc11b5321f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "bee2dce6-33e1-4f16-a028-df6f28a61dc7",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-1La"
+}

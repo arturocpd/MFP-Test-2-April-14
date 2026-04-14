@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Noodverzoek</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Noodverzoeken</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Noodverzoek</nameFieldLabel>
+    <quickActions>
+        <label><!-- Create a Visit --></label>
+        <name>Create_a_Visit</name>
+    </quickActions>
+    <recordTypes>
+        <label>Verzoek noodhulp</label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Donatie noodvoorraden</label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Verzoek noodvoorraden</label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

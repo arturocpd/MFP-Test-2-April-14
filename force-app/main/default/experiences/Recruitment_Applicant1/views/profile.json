@@ -1,0 +1,49 @@
+{
+  "appPageId" : "c1857bfa-5ce6-40d8-a9ca-f1a64d399d34",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8fd3078e-5813-42bb-91c8-76a4a9728efe",
+  "label" : "Profile",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 21px;\">Complete Your Profile</span>      </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Add or update your profile details to get personalized job recommendations and to quickly apply for job positions.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "95671832-5bba-470e-99d7-ec28ffe63ea0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4801fb20-10b9-4866-8355-7ebda8e10904",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "ApplicantProfile",
+        "theme" : "lightning",
+        "type" : "Recruitment"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "4501c220-c20f-45d3-9cf7-777c121aaf21",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6f4127e8-bb8b-4338-92cf-289cb5dee796",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "1cdeafbb-6468-472a-9e40-670790f197c5",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "application-profile"
+}

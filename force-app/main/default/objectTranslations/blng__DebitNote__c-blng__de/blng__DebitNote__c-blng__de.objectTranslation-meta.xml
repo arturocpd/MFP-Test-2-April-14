@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Belastungsanzeige</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Belastungsanzeigen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Belastungsanzeige</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Belastungsanzeigen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Belastungsanzeige</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Belastungsanzeigen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Belastungsanzeige</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Belastungsanzeigen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Debit Note Layout</layout>
+        <sections>
+            <label><!-- Balance Details --></label>
+            <section>Balance Details</section>
+        </sections>
+        <sections>
+            <label><!-- Tax Address --></label>
+            <section>Tax Address</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nummer der Belastungsanzeige</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Steuern anwenden</label>
+        <name>blng__ApplyTax</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Steuern stornieren</label>
+        <name>blng__CancelTax</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Steuern schätzen</label>
+        <name>blng__EstimateTax</name>
+    </quickActions>
+    <webLinks>
+        <label>Zuordnen</label>
+        <name>blng__Allocations</name>
+    </webLinks>
+    <webLinks>
+        <label>Steuern anwenden</label>
+        <name>blng__ApplyTax</name>
+    </webLinks>
+    <webLinks>
+        <label>Steuern stornieren</label>
+        <name>blng__CancelTax</name>
+    </webLinks>
+    <webLinks>
+        <label>Steuern schätzen</label>
+        <name>blng__EstimateTax</name>
+    </webLinks>
+</CustomObjectTranslation>

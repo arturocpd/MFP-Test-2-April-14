@@ -1,0 +1,9 @@
+{
+  "activeViewId" : "f7cc4cc3-e8c7-4c56-8396-7b05dc3ff4b0",
+  "appPageId" : "5a89a6eb-5e46-449a-bfec-8658faff2c53",
+  "configurationTags" : [ ],
+  "devName" : "Quote",
+  "label" : "Quote Confirmation",
+  "routeType" : "quote",
+  "urlPrefix" : "quote"
+}
